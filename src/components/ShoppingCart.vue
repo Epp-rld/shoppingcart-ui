@@ -22,8 +22,9 @@
         <td>{{ item.name }}</td>
         <td>{{ item.quantity }}</td>
         <td>{{ item.price }}€</td>
-        <button @click="removeProduct(item.name)" class="btn btn-danger btn-sm rainbow-button">Remove</button>
-
+        <td>
+          <button @click="removeProduct(item.name)" class="btn btn-danger btn-sm rainbow-button">Remove</button>
+        </td>
       </tr>
       </tbody>
 
